@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap'); /*  FONTE  */
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"); /*   BOOTSTRAP ICONS   */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Pixelify Sans;
+    background-color: rgb(24, 21, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1, h2 {
+    font-family: sans-serif;
+    color: white;
+}
+
+.main__div {
+    width: 400px;
+    height: auto;
+    border: 3px solid white;
+    padding: 10px;
+    /* color: rgb(185, 178, 178); */
+    /* color: rgb(126, 121, 121); */
+    color: rgb(136, 134, 134);
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+}
+
+.my__info > a {
+    text-decoration: none;
+    outline: none;
+}
+
+.my__info > a > i {
+    margin-bottom: 10px;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    /* filter: invert(100%); */
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    display: inline-block;
+    font-size: 2rem;
+    /* margin-bottom: 10px; */
+    text-decoration: none;
+    outline: none;
+}
+
+.my__info > a > i:hover {
+    transform: translateY(-5px);
+}
+
+#eu {
+    border-radius: 50%;
+    width: 250px;
+    height: 120px;
+    filter: none;
+}
+
+#eu:hover {
+    transform: none;
+}
+
+.intro p {
+    font-family: sans-serif;
+}
+
+
+.projects {
+    height: 80px;
+    border: 3px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    /* background-color: gray; */
+    filter: blur(50%);
+    margin-top: 20px;
+    color: gray;
+    box-shadow: 3px 5px black;
+
+    /* transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease; */
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+
+.projects:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    background-color: gray;
+    color: black;
+}
+
+
+
+
+footer {
+    margin-top: 50px;
+    font-family: sans-serif;
+    color: white;
+}
+

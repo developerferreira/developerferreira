@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+:root {
+    --main-color: rgb(24, 21, 21);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main {
+    height: 500px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main > div {
+    text-align: center;
+}
+
+main > div > img {
+    margin-bottom: 20px;
+}
+
+
+h1 {
+    color: white;
+}
+
+p {
+    font-family: Pixelify Sans;
+    font-weight: bold;
+    color: gray;
+}
+
+a {
+    color: white;
+}
+
+span {
+    color: white;
+    text-decoration: underline;
+}
+
+#preview {
+    width: 700px;
+    height: 300px;
+    border: 10px solid rgb(255, 255, 255);
+    margin-top: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.click {
+    text-decoration: none;
+    color: white;
+    font-family: Pixelify Sans;
+    transition: background-color 0.3s, transform 0.3s, border 0.3s, border-radius 0.3s, color 0.3s;
+}
+
+.click:hover {
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 10px;
+    color: black;
+    transform: scale(1.1);
+}
+
