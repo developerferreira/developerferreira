@@ -112,3 +112,10 @@ footer {
     color: white;
 }
 
+@media (max-width: 600px) {
+    .main__div {
+        width: auto;
+        height: auto;
+    }
+}
+
