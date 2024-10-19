@@ -4,7 +4,7 @@
 ✨ Prazer, me chamo Felipe! Tenho 17 anos, atualmente morando em São Paulo e sou aspirante a **Back-End Developer**. <br>
 💡 Atualmente estou estudando sobre Docker, APIs e banco de dados (Para ser mais preciso: PostgreSQL). <br>
 🎈 Sempre curti programar, meus primeiro projeto foram bots no discord. Suas funções eram bem diversificadas, que incluíam: música, roleplay, rpg, moderação, entre outras coisas. <br>
-🔗 [Meu portfólio!](https://ferreira-js.github.io/Ferreira-Js/)
+🔗 [Meu portfólio!](https://developerferreira.github.io/developerferreira/)
 
 <div align="center">
   <a href="https://youtube.com/@ferreiradeveloper" target="_blank">
@@ -13,7 +13,7 @@
   <a href="https://discord.gg/8JPheHry" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
   </a>
-  <a href="https://ferreira-js.github.io/Ferreira-Js/" target="_blank">
+  <a href="https://developerferreira.github.io/developerferreira/" target="_blank">
   <img src="https://www.svgrepo.com/show/532867/link.svg" width="52" height="40" alt="portfolio"/></a>
 </div>
 
@@ -48,9 +48,9 @@
 ### Progresso no Github:
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ferreira-js&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=github_dark&locale=en&hide_border=false&order=1&custom_title=My%20Stats" height="150" alt="stats graph"  />
-  <img src="https://streak-stats.demolab.com?user=ferreira-js&locale=en&mode=weekly&theme=github_dark&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=ferreira-js&theme=darkhub&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=developerferreira&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=github_dark&locale=en&hide_border=false&order=1&custom_title=My%20Stats" height="150" alt="stats graph"  />
+  <img src="https://streak-stats.demolab.com?user=developerferreira&locale=en&mode=weekly&theme=github_dark&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+  <img src="https://github-profile-trophy.vercel.app?username=developerferreira&theme=darkhub&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
 </div>
 
 ###
@@ -61,7 +61,7 @@
 ### Visualizações:
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/ferreira-js/count.svg?"  />
+  <img src="https://profile-counter.glitch.me/developerferreira/count.svg?"  />
 </div>
 
 ###
