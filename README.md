@@ -3,7 +3,7 @@
 ### Sobre mim :D
 ✨ Prazer, me chamo Felipe! Tenho 17 anos, atualmente morando em São Paulo e sou aspirante a **Back-End Developer**. <br>
 💡 Atualmente estou estudando sobre Docker, APIs e banco de dados (Para ser mais preciso: PostgreSQL). <br>
-🎈 Sempre curti programar, meus primeiros projetos foram bots no discord. Suas funções eram bem diversificadas, que incluíam: música, roleplay, rpg, moderação, entre outras coisas. <br>
+🎈 Sempre curti programar, meus primeiros projetos foram bots no discord. Suas funções eram bem diversificadas, que incluíam: música, rpg, moderação, entre outras coisas. <br>
 🔗 [Meu portfólio!](https://developerferreira.github.io/developerferreira/)
 
 <div align="center">
