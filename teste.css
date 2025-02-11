@@ -2,26 +2,14 @@
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"); /*   BOOTSTRAP ICONS   */
 
-:root {
-    --main-color: white;
-    --text-color: black;
-}
-
 * {
     margin: 0;
     padding: 0;
 }
 
-.dark__mode {
-    --main-color: rgb(24, 21, 21);
-    --text-color: white;
-    --p-color: rgb(136, 134, 134);
-    font-family: Pixelify Sans;
-}
-
 body {
     font-family: Pixelify Sans;
-    background-color: var(--main-color);
+    background-color: rgb(24, 21, 21);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,56 +17,19 @@ body {
     height: 100vh;
 }
 
-.theme__switch {
-    height: 50px;
-    width: 50px;
-    padding: 0;
-    border-radius: 50%;
-    background-color: var(--main-color);
-    border-color: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-}
-
-.theme__switch i {
-    color: var(--text-color);
-    font-size: 25px;
-}
-
-.theme__switch i:last-child {
-    display: none;
-}
-
-.dark__mode .theme__switch i:first-child {
-    display: none;
-}
-
-.dark__mode .theme__switch i:last-child {
-    display: block;
-}
-
-.theme {
-    color: var(--main-color);
-    transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
 h1, h2 {
     font-family: sans-serif;
-    /* color: black; */
+    color: white;
 }
 
 .main__div {
     width: 400px;
     height: auto;
-    border: 3px solid var(--text-color);
+    border: 3px solid white;
     padding: 10px;
     /* color: rgb(185, 178, 178); */
     /* color: rgb(126, 121, 121); */
-    color: var(--text-color);
+    color: rgb(136, 134, 134);
 }
 
 .intro {
@@ -97,13 +48,14 @@ h1, h2 {
     height: 25px;
     padding: 5px;
     /* filter: invert(100%); */
-    transition: transform 0.3s ease-in-out;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
     display: inline-block;
     font-size: 2rem;
     /* margin-bottom: 10px; */
     text-decoration: none;
     outline: none;
-    color: var(--text-color);
 }
 
 .my__info > a > i:hover {
@@ -128,14 +80,14 @@ h1, h2 {
 
 .projects {
     height: 80px;
-    border: 3px solid var(--text-color);
+    border: 3px solid gray;
     border-radius: 5px;
     padding: 10px;
     /* background-color: gray; */
     filter: blur(50%);
     margin-top: 20px;
-    color: var(--text-color);
-    box-shadow: 1px 1px rgba(0, 0, 0, 0.411);
+    color: gray;
+    box-shadow: 3px 5px black;
 
     /* transition-property: transform;
     transition-duration: 0.3s;
@@ -147,8 +99,8 @@ h1, h2 {
 .projects:hover {
     cursor: pointer;
     /* transform: translateY(-5px); */
-    background-color: var(--text-color);
-    color: var(--main-color);
+    background-color: gray;
+    color: black;
 }
 
 
@@ -157,7 +109,7 @@ h1, h2 {
 footer {
     margin-top: 50px;
     font-family: sans-serif;
-    color: var(--main-color);
+    color: white;
 }
 
 @media (max-width: 600px) {
