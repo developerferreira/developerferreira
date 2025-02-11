@@ -98,7 +98,7 @@ h1, h2 {
 
 .projects:hover {
     cursor: pointer;
-    transform: translateY(-5px);
+    /* transform: translateY(-5px); */
     background-color: gray;
     color: black;
 }
