@@ -44,6 +44,10 @@ body {
     right: 20px;
 }
 
+.theme__switch:hover {
+    cursor: pointer;
+}
+
 .theme__switch i {
     color: var(--text-color);
     font-size: 25px;
