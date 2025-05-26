@@ -2,12 +2,24 @@
 
 
 :root {
-    --main-color: rgb(24, 21, 21);
+    /* --main-color: rgb(24, 21, 21); */
+    --main-color: white;
+    --text-color: black;
 }
 
 * {
     margin: 0;
     padding: 0;
+}
+
+.dark__mode {
+    --main-color: rgb(24, 21, 21);
+    --text-color: white;
+    --p-color: rgb(136, 134, 134);
+    font-family: Pixelify Sans;
+    #insta__logo {
+        filter: invert();
+    }
 }
 
 .corpo {
@@ -45,28 +57,32 @@ main > div > img {
 
 
 h1 {
-    color: white;
+    color: var(--text-color);
 }
 
 p {
     font-family: Pixelify Sans;
     font-weight: bold;
-    color: gray;
+    color: var(--text-color);
+}
+
+#insta__logo {
+    filter: none;
 }
 
 a {
-    color: white;
+    color: var(--p-color);
 }
 
 span {
-    color: white;
+    color: var(--p-color);
     text-decoration: underline;
 }
 
 #preview {
     width: 700px;
     height: 300px;
-    border: 10px solid rgb(255, 255, 255);
+    border: 5px solid var(--text-color);
     margin-top: 20px;
 }
 
@@ -82,16 +98,13 @@ footer {
 
 .click {
     text-decoration: none;
-    color: white;
+    color: var(--text-color);
     font-family: Pixelify Sans;
-    border: 1px solid white;
+    border: 1px solid var(--text-color);
     border-radius: 3px;
     padding: 10px;
 }
 
-.click:hover {
-    /* text-decoration: underline; */
-}
 
 @media (max-width: 600px) {
     .corpo {
