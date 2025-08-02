@@ -1,7 +1,6 @@
 function abrirProjeto(projeto) {
-    if (projeto === 'renbly') {
-        window.location.href = '#'
-        alert('Trabalhando nisso..')
+    if (projeto === 'ccombos') {
+        window.location.href = 'src/projects/ccombos/index.html'
     } else {
         window.location.href = 'src/projects/insta_scraper/index.html'
     }
