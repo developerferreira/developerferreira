@@ -1,7 +1,7 @@
 
 
 ### Sobre mim :D
-✨ Prazer, meu nome é Cauã, mas pode me chamar de Felipe ou Ferreira! Tenho 18 anos, atualmente moro em Dois Córregos (SP) e atuo como **Desenvolvedor Back-End**. <br>
+✨ Prazer, meu nome é Cauã, mas pode me chamar de Ferreira! Tenho 18 anos, atualmente moro em Dois Córregos (SP) e tenho como foco principal o **Back-End**. <br>
 💡 No momento estou cursando Ciências da Computação pela Universidade Anhanguera. <br>
 🎈 Sempre curti programar, meus primeiros projetos foram bots no discord e pequenos sites pessoais. Mais tarde comecei a aprender um pouco mais de front-end (HTML, CSS, JS). A partir daí, comecei a desenvolver projetos maiores, que estão disponíveis em meu portfólio! <br>
 🔗 [Meu portfólio!](https://developerferreira.github.io/developerferreira/)
