@@ -23,6 +23,7 @@
 .corpo {
     display: flex;
     flex-direction: column;
+    gap: 20px;
     padding: 20px;
 }
 
@@ -42,20 +43,13 @@ header h1 {
     color: #F86526;
 }
 
-main {
-    height: 500px;
-    /* background-color: red; */
-    display: flex;
-    flex-direction: column;
-}
-
-main > div {
+div {
     text-align: center;
 }
-
+/* 
 main > div > img {
     margin-bottom: 20px;
-}
+} */
 
 
 h1 {
@@ -68,9 +62,6 @@ p {
     color: var(--text-color);
 }
 
-#insta__logo {
-    filter: none;
-}
 
 a {
     color: var(--p-color);
@@ -95,7 +86,7 @@ footer {
     gap: 10px;
     /* text-align: center;
     align-items: center; */
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .click {
@@ -113,9 +104,7 @@ footer {
         width: auto;
         height: auto;
     }
-
-    #insta__logo {
-        width: auto;
-        height: auto;
+    #preview {
+        width: 500px;
     }
 }
