@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap'); /*  FONTE  */
-
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"); /*   BOOTSTRAP ICONS   */
 
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 body {
-    font-family: Pixelify Sans;
     background-color: rgb(24, 21, 21);
     display: flex;
     justify-content: center;
@@ -18,7 +16,6 @@ body {
 }
 
 h1, h2 {
-    font-family: sans-serif;
     color: white;
 }
 
@@ -73,11 +70,6 @@ h1, h2 {
     transform: none;
 }
 
-.intro p {
-    font-family: sans-serif;
-}
-
-
 .projects {
     height: 80px;
     border: 3px solid gray;
@@ -103,12 +95,8 @@ h1, h2 {
     color: black;
 }
 
-
-
-
 footer {
     margin-top: 50px;
-    font-family: sans-serif;
     color: white;
 }
 

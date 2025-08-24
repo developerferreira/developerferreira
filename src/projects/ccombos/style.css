@@ -8,13 +8,13 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 .dark__mode {
     --main-color: rgb(24, 21, 21);
     --text-color: white;
     --p-color: #F86526;
-    font-family: sans-serif;
     #insta__logo {
         filter: invert();
     }

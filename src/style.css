@@ -1,26 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap'); /*  FONTE  */
-
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"); /*   BOOTSTRAP ICONS   */
 
 :root {
     --main-color: white;
     --text-color: black;
+    --boxshadow-color: blue;
 }
 
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 .dark__mode {
     --main-color: rgb(24, 21, 21);
     --text-color: white;
     --p-color: rgb(136, 134, 134);
-    font-family: Pixelify Sans;
+    --boxshadow-color: blue;
 }
 
 body {
-    font-family: Pixelify Sans;
     background-color: var(--main-color);
     display: flex;
     justify-content: center;
@@ -70,19 +69,15 @@ body {
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-h1, h2 {
-    font-family: sans-serif;
-    /* color: black; */
-}
-
 .main__div {
-    width: 400px;
+    width: 450px;
     height: auto;
     border: 3px solid var(--text-color);
     padding: 10px;
     /* color: rgb(185, 178, 178); */
     /* color: rgb(126, 121, 121); */
     color: var(--text-color);
+    box-shadow: 0px 0px 10px var(--boxshadow-color), 0px 0px 15px var(--boxshadow-color);
 }
 
 .intro {
@@ -114,9 +109,17 @@ h1, h2 {
     transform: translateY(-5px);
 }
 
+.my__info p {
+    text-wrap: pretty;
+}
+
+.h1__color {
+    color: var(--boxshadow-color);
+}
+
 #eu {
     border-radius: 50%;
-    width: 250px;
+    /* width: 250px; */
     height: 120px;
     filter: none;
 }
@@ -125,10 +128,9 @@ h1, h2 {
     transform: none;
 }
 
-.intro p {
-    font-family: sans-serif;
+#project__text {
+    margin-top: 10px;
 }
-
 
 .projects {
     height: 80px;
@@ -155,13 +157,17 @@ h1, h2 {
     color: var(--main-color);
 }
 
-
-
-
 footer {
-    margin-top: 50px;
-    font-family: sans-serif;
-    color: var(--main-color);
+    width: auto;
+    color: white;
+    padding: 10px;
+    border: 3px solid var(--text-color);
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px var(--boxshadow-color), 0px 0px 15px var(--boxshadow-color);
+}
+
+footer i {
+    font-size: 30px;
 }
 
 @media (max-width: 600px) {
