@@ -3,7 +3,7 @@
 :root {
     --main-color: white;
     --text-color: black;
-    --boxshadow-color: blue;
+    --boxshadow-color: rgba(0, 0, 0, 0.36)  ;
 }
 
 * {
@@ -14,9 +14,9 @@
 
 .dark__mode {
     --main-color: rgb(24, 21, 21);
-    --text-color: white;
+    --text-color: rgb(255, 255, 255);
     --p-color: rgb(136, 134, 134);
-    --boxshadow-color: blue;
+    --boxshadow-color: rgba(255, 255, 255, 0.36);
 }
 
 body {
@@ -34,7 +34,8 @@ body {
     padding: 0;
     border-radius: 50%;
     background-color: var(--main-color);
-    border-color: transparent;
+    border: 1px solid var(--text-color);
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +115,11 @@ body {
 }
 
 .h1__color {
-    color: var(--boxshadow-color);
+    color: blue;
+}
+
+h2 {
+    color: blue;
 }
 
 #eu {
@@ -158,12 +163,13 @@ body {
 }
 
 footer {
-    width: auto;
+    width: 450px;
     color: white;
     padding: 10px;
     border: 3px solid var(--text-color);
     margin-top: 20px;
     box-shadow: 0px 0px 10px var(--boxshadow-color), 0px 0px 15px var(--boxshadow-color);
+    text-align: center;
 }
 
 footer i {
@@ -172,11 +178,12 @@ footer i {
 
 @media (max-width: 600px) {
     .main__div {
-        width: auto;
-        height: auto;
+        width: 400px;
     }
     .projects {
         height: auto;
     }
+    footer {
+        width: 400px;
+    }
 }
-
