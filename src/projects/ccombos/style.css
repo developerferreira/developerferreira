@@ -1,23 +1,16 @@
 :root {
-    /* --main-color: rgb(24, 21, 21); */
-    --main-color: white;
-    --text-color: black;
-    --p-color: #F86526;
+    --main-color: rgb(24, 21, 21);
+    --text-color: white;
+    --p-color: #22c55e;
+    #insta__logo {
+        filter: invert();
+    }
 }
 
 * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-}
-
-.dark__mode {
-    --main-color: rgb(24, 21, 21);
-    --text-color: white;
-    --p-color: #F86526;
-    #insta__logo {
-        filter: invert();
-    }
 }
 
 .corpo {
@@ -40,7 +33,7 @@ header {
 
 header h1 {
     font-family: sans-serif;
-    color: #F86526;
+    color: var(--p-color);
 }
 
 div {
@@ -69,7 +62,7 @@ a {
 
 span {
     color: var(--p-color);
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 #preview {
