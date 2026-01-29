@@ -155,3 +155,15 @@ footer i {
         width: 400px;
     }
 }
+
+@media (max-width: 430px) {
+    .main__div {
+        width: 340px;
+    }
+    .projects {
+        height: auto;
+    }
+    footer {
+        width: 340px;
+    }
+}
