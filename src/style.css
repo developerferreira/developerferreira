@@ -24,11 +24,11 @@ body {
 
 .main__div {
     width: 450px;
-    height: auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
     border: 2px solid var(--foreground-color);
     padding: 10px;
-    /* color: rgb(185, 178, 178); */
-    /* color: rgb(126, 121, 121); */
     color: var(--foreground-color);
 }
 
@@ -102,6 +102,22 @@ h2 {
 #eu:hover {
     transform: none;
 }
+
+.projects__container {
+    flex: 1;
+    overflow-y: auto;
+    margin-top: px;
+}
+
+.projects__container::-webkit-scrollbar {
+    width: 4px;
+}
+
+.projects__container::-webkit-scrollbar-thumb {
+    background: var(--text-color);
+    border-radius: 3px;
+}
+
 
 #project__text {
     margin-top: 10px;
