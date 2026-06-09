@@ -89,6 +89,12 @@ footer {
     border: 1px solid var(--text-color);
     border-radius: 3px;
     padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.click:hover {
+    background-color: white;
+    color: black;
 }
 
 
