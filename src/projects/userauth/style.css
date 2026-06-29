@@ -2,9 +2,6 @@
     --main-color: rgb(24, 21, 21);
     --text-color: white;
     --p-color: #22c55e;
-    #insta__logo {
-        filter: invert();
-    }
 }
 
 * {

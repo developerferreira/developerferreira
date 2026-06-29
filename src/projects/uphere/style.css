@@ -2,9 +2,6 @@
     --main-color: rgb(24, 21, 21);
     --text-color: white;
     --p-color: #22c55e;
-    #insta__logo {
-        filter: invert();
-    }
 }
 
 * {
@@ -16,6 +13,8 @@
 .corpo {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    padding: 20px;
 }
 
 body {
@@ -29,36 +28,30 @@ header {
     text-align: center;
 }
 
-main {
-    height: 500px;
-    /* background-color: red; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-main > div {
-    text-align: center;
-}
-
-main > div > img {
-    margin-bottom: 20px;
-}
-
-
-h1 {
+header h1 {
+    font-family: sans-serif;
     color: var(--p-color);
 }
 
+div {
+    text-align: center;
+}
+/* 
+main > div > img {
+    margin-bottom: 20px;
+} */
+
+
+h1 {
+    color: var(--text-color);
+}
+
 p {
+    font-family: sans-serif;
     font-weight: bold;
     color: var(--text-color);
 }
 
-#insta__logo {
-    filter: none;
-}
 
 a {
     color: var(--p-color);
@@ -66,12 +59,12 @@ a {
 
 span {
     color: var(--p-color);
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 #preview {
     width: 700px;
-    height: 300px;
+    height: 342px;
     border: 5px solid var(--text-color);
     margin-top: 20px;
 }
@@ -83,12 +76,13 @@ footer {
     gap: 10px;
     /* text-align: center;
     align-items: center; */
-    margin-top: 25px;
+    /* margin-top: 50px; */
 }
 
 .click {
     text-decoration: none;
     color: var(--text-color);
+    font-family: sans-serif;
     border: 1px solid var(--text-color);
     border-radius: 3px;
     padding: 10px;
@@ -101,14 +95,20 @@ footer {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 740px) {
     .corpo {
         width: auto;
-        height: auto;
     }
+    #preview {
+        width: 500px;
+    }
+}
 
-    #insta__logo {
+@media (max-width: 530px) {
+    .corpo {
         width: auto;
-        height: auto;
+    }
+    #preview {
+        width: 400px;
     }
 }
