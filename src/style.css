@@ -103,10 +103,13 @@ h2 {
     transform: none;
 }
 
+.bi.bi-youtube {
+    color: red;
+}
+
 .projects__container {
     flex: 1;
     overflow-y: auto;
-    margin-top: px;
 }
 
 .projects__container::-webkit-scrollbar {

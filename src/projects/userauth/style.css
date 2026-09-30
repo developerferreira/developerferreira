@@ -62,7 +62,7 @@ span {
     /* text-decoration: underline; */
 }
 
-#preview {
+.preview {
     width: 700px;
     height: auto;
     border: 5px solid var(--text-color);
@@ -99,7 +99,7 @@ footer {
     .corpo {
         width: auto;
     }
-    #preview {
+    .preview {
         width: 500px;
     }
 }
@@ -108,7 +108,7 @@ footer {
     .corpo {
         width: auto;
     }
-    #preview {
+    .preview {
         width: 400px;
     }
 }
