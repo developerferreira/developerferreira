@@ -3,32 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>API Biblioteca</title>
+    <title>Cauã Ferreira | API Biblioteca</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="corpo">
         <header>
+            <a href="../../../index.html"><i class="bi bi-arrow-left"></i> Voltar</a>
             <h1>API Biblioteca</h1>
-            <p>Uma API simples de gerenciamento de livros usando Python.</p>
+            <p>API REST para gerenciamento de livros, com operações de criação, consulta, atualização e exclusão.</p>
+            <div class="skills">
+                <p class="skill-name">Python</p>
+                <p class="skill-name">FastAPI</p>
+                <p class="skill-name">MongoDB Atlas</p>
+                <p class="skill-name">PyMongo</p>
+                <p class="skill-name">API REST</p>
+                <p class="skill-name">Postman Desktop</p>
+            </div>
         </header>
 
         <main>
-            <div>
-                <p>Ferramentas utilizadas para a criação dessa api: <span>Python, FastAPI, MongoDB Atlas e Mongoose.</span> Ela permite adicionar, buscar, atualizar e excluir livros do banco de dados. <span>FastAPi</span> possibilitou a criação da API em si, juntamente com <span>Python</span>. Já o <span>Mongoose</span> foi utilizado para realizar a conexão com o <span>MongoDB Atlas</span>.</p>
+            <div class="preview-img">
+                <div class="imgs">
+                    <img src="../../imgs/biblioteca/add_livro.png" alt="Adicioar livro">
+                    <img src="../../imgs/biblioteca/buscando_livro.png" alt="Buscar livro">
+                    <img src="../../imgs/biblioteca/atualizando_livro.png" alt="Atualizar informações do livro">
+                    <img src="../../imgs/biblioteca/delete.png" alt="Deletar livro">
+                </div>
+                <p>Imagens do projeto</p>
+            </div>
 
-                <a href="https://github.com/developerferreira/biblioteca" target="_blank">
-                    <img src="../../imgs/biblioteca/add_livro.png" alt="Preview adicionando livro" class="preview">
-                    <img src="../../imgs/biblioteca/atualizando_livro.png" alt="Preview atualizando livro" class="preview">
-                    <img src="../../imgs/biblioteca/livros1.png" alt="Preview mostrar todos os livros" class="preview">
-                    <img src="../../imgs/biblioteca/buscando_livro.png" alt="Preview mostrar um livro específico" class="preview">
-                    <img src="../../imgs/biblioteca/delete.png" alt="Preview deletando um livro" class="preview">
-                </a>
+            <div class="about-project">
+                <h2>Sobre o projeto:</h2>
+                <p><strong>FastAPI</strong> foi responsável pela definição de rotas, processamento de requisições HTTP e o retorno de respostas em JSON. Utilizei o <strong>MongoDB Atlas</strong> para armazenar os livros e o <strong>PyMongo</strong> para realizar a comunicação entre Python e MongoDB. Por fim, utilizei o <strong>Postman Desktop</strong> para testar os endpoints e verificar o comportamento das requisições e respostas da API.</p>
+            </div>
+
+            <div class="tech-used">
+                <h2>Tecnologias utilizadas:</h2>
+                <div class="tech">
+                    <h3>Back-end</h3>
+                    <p>Python, FastAPI, PyMongo e API REST.</p>
+                </div>
+                <div class="tech">
+                    <h3>Segurança</h3>
+                    <p>Dotenv para variáveis de ambiente</p>
+                </div>
+                <div class="tech">
+                    <h3>Teste de API</h3>
+                    <p>Postman Desktop</p>
+                </div>
+            </div>
         </main>
 
         <footer>
-            <a href="https://github.com/developerferreira/biblioteca" target="_blank" class="click">Código fonte</a>
-            <!-- <a href="https://github.com/developerferreira/biblioteca" target="_blank" class="click">Testar projeto</a> -->
+            <a href="https://github.com/developerferreira/biblioteca">Código fonte <i class="bi bi-arrow-up-right"></i></a>
         </footer>
     </div>
 </body>

@@ -10,81 +10,55 @@
 <body>
     <div class="main__div">
         <div class="intro">
-            <div class="my__info">
-                <h1 class="h1__color">Cauã Ferreira</h1>
-                <a href="https://github.com/developerferreira" target="_blank">
-                    <i class="bi bi-github"></i>
-                </a>
-                <a href="https://youtube.com/@ferreiradeveloper" target="_blank">
-                    <i class="bi bi-youtube"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/developerferreira/" target="_blank">
-                    <i class="devicon-linkedin-plain colored"></i>
-                </a>
-                <p>Prazer, meu nome é <strong>Cauã</strong>! Tenho 19 anos, atualmente moro em <strong>Dois Córregos (SP)</strong> e estou cursando <strong>Ciências da Computação</strong> pela Universidade Anhanguera.</p>
+            <div class="my-info">
+                <h1>Cauã Ferreira</h1>
+                <p>Estudante de Ciências da Computação</p>
+                <div class="skills">
+                    <p class="skill-name">NodeJS</p>
+                    <p class="skill-name">Python</p>
+                    <p class="skill-name">APIs Rest</p>
+                    <p class="skill-name">Banco de Dados</p>
+                </div>
+                <p>Desenvolvo aplicações web e APIs REST, com foco em <strong>soluções de back-end eficientes e integração com bancos de dados.</strong></p>
+
+                <div class="socials">
+                    <a href="https://github.com/developerferreira" target="_blank" class="social-name">Github <i class="bi bi-arrow-up-right"></i></a>
+                    <a href="https://www.linkedin.com/in/developerferreira" target="_blank" class="social-name">LinkedIn <i class="bi bi-arrow-up-right"></i></a>
+                </div>
             </div>
     
-            <div class="avatar">
-                <img src="src/imgs/eu3.jpg" alt="Foto minha" id="eu">
+            <div class="foto-div">
+                <img src="src/imgs/eu3.jpg" alt="Foto minha" id="foto-img">
             </div>
         </div>
         
-        <h1 id="project__text" class="h1__color">Projetos:</h1>
+        <h1 id="project-text">Projetos:</h1>
 
-        <div class="projects__container">
-            <div class="projects" onclick="abrirProjeto('userauth')">
+        <div class="projects-container">
+            <a href="src/projects/userauth/index.html" class="projects">
                 <h2>UserAuth</h2>
-                <p>Projeto de autenticação de usuários com possibilidade de cadastro, login e logout. Clique para ver mais. <br>
-                    <i class="devicon-react-original-wordmark colored" title="React"></i>
-                    <i class="devicon-styledcomponents-plain-wordmark" title="styled-components"></i>
-                    <i class="devicon-javascript-plain colored" title="Javascript"></i>
-                    <i class="devicon-nodejs-plain-wordmark colored" title="Nodejs"></i>
-                    <i class="devicon-express-original-wordmark" title="Express"></i>
-                    <i class="devicon-mongodb-plain-wordmark colored" title="MongoDB"></i>
-                    <i class="devicon-mongoose-original-wordmark" title="Mongoose"></i>
-                    <i class="devicon-git-plain colored" title="Git"></i>
-                </p>
-            </div>
-            <div class="projects" onclick="abrirProjeto('uphere')">
+                <p>Projeto de autenticação de usuários com possibilidade de cadastro, login e logout.</p>
+            </a>
+            <a href="src/projects/uphere/index.html" class="projects">
                 <h2>UpHere</h2>
-                <p>Projeto de gerenciamento de arquivos com a possibilidade de login e registro. <br>
-                    <i class="devicon-react-original-wordmark colored" title="React"></i>
-                    <i class="devicon-styledcomponents-plain-wordmark" title="styled-components"></i>
-                    <i class="devicon-javascript-plain colored" title="Javascript"></i>
-                    <i class="devicon-nodejs-plain-wordmark colored" title="Nodejs"></i>
-                    <i class="devicon-express-original-wordmark" title="Express"></i>
-                    <i class="devicon-mongodb-plain-wordmark colored" title="MongoDB"></i>
-                    <i class="devicon-mongoose-original-wordmark" title="Mongoose"></i>
-                    <i class="devicon-supabase-plain-wordmark"></i>
-                    <i class="devicon-git-plain colored" title="Git"></i>
-                </p>
-            </div>
-            <div class="projects" onclick="abrirProjeto('biblioteca')">
+                <p>Projeto de gerenciamento de arquivos que conta com login e registro de contas, além de permitir a consulta e exclusão de dados.</p>
+            </a>
+            <a href="src/projects/biblioteca/index.html" class="projects">
                 <h2>API Biblioteca</h2>
-                <p>Simples API de biblioteca com Python. Permite adicionar, buscar, editar e excluir livros. <br>
-                    <i class="devicon-python-plain" title="Python"></i>
-                    <i class="devicon-fastapi-plain colored" title="FastAPI"></i>
-                    <i class="devicon-mongodb-plain-wordmark colored" title="MongoDB"></i>
-                    <i class="devicon-mongoose-original-wordmark" title="Mongoose"></i>
-                </p>
-            </div>
-            <div class="projects" onclick="abrirProjeto('todo_list')">
+                <p>API REST para gerenciamento de livros, com operações de criação, consulta, atualização e exclusão.</p>
+            </a>
+            <a href="src/projects/todo_list/index.html" class="projects">
                 <h2>To-Do List</h2>
-                <p>Lista de tarefas simples usando Javascript puro. As tarefas são salvas no armazenamento local. <br>
-                    <i class="devicon-html5-plain colored" title="Html5"></i>
-                    <i class="devicon-css3-plain colored" title="Css3"></i>
-                    <i class="devicon-javascript-plain colored" title="Javascript"></i>
-                    <i class="devicon-git-plain colored" title="Git"></i>
-                </p>
-            </div>
+                <p>Lista de tarefas simples usando Javascript puro. As tarefas são salvas no armazenamento local.</p>
+            </a>
         </div>
     </div>
 
     <footer>
-        <i class="devicon-html5-plain colored" title="Html5"></i>
-        <i class="devicon-css3-plain colored" title="Css3"></i>
+        <i class="devicon-html5-plain colored" title="HTML5"></i>
+        <i class="devicon-css3-plain colored" title="CSS3"></i>
         <i class="devicon-javascript-plain colored" title="Javascript"></i>
-        <i class="devicon-nodejs-plain-wordmark colored" title="Nodejs"></i>
+        <i class="devicon-nodejs-plain-wordmark colored" title="NodeJS"></i>
         <i class="devicon-python-plain-wordmark" title="Python"></i>
         <i class="devicon-fastapi-plain colored" title="FastAPI"></i>
         <i class="devicon-express-original-wordmark" title="Express"></i>

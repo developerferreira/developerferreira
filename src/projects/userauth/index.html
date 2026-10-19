@@ -3,34 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UserAuth</title>
+    <title>Cauã Ferreira | UserAuth</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
 <body>
     <div class="corpo">
         <header>
+            <a href="../../../index.html"><i class="bi bi-arrow-left"></i> Voltar</a>
             <h1>UserAuth</h1>
-            <p>O projeto permite a criação de contas e login seguro, onde é redirecionado a uma página protegida do usuário. Essa página contém informações sobre a conta do usuário, e permite fazer logout e exclusão da conta.</p>
+            <p>Sistema de autenticação e gerenciamento de usuários com rotas protegidas.</p>
+            <div class="skills">
+                <p class="skill-name">NodeJS</p>
+                <p class="skill-name">MongoDB Atlas</p>
+                <p class="skill-name">API Rest</p>
+                <p class="skill-name">Mongoose</p>
+                <p class="skill-name">JsonWebToken</p>
+                <p class="skill-name">Bcrypt</p>
+            </div>
         </header>
 
         <main>
-            <div>
-                <p>Para a criação deste projeto foram utilizadas as seguintes tecnologias: <span>React, styled-components, Javascript, Node.JS, MongoDB Atlas, Mongoose e Git.</span> Utilizei o <span>Git</span> para versionamento do projeto. No back-end, utilizei <span>Express</span> para criar uma API REST responsável pelo cadastro, autenticação e gerenciamento de usuários. O <span>MongoDB Atlas</span> foi escolhido como banco de dados NoSQL para armazenar os dados dos usuários cadastrados enquanto o <span>Mongoose</span> foi utilizado para modelagem de dados e integração com o banco de forma mais prática. Para proteger informações sensíveis, utilizei o <span>dotenv</span> para armazenar variáveis de ambiente como a URI de conexão com o banco de dados e a chave secreta utilizada na autenticação. No front-end, utilizei <span>React</span> e <span>styled-components</span>, sendo a minha primeira experiência com essa biblioteca de estilização. Por fim, para garantir a segurança dos dados, utilizei o <span>bcrypt</span> para realizar o hash das senhas dos usuários antes de serem armazenadas e implementei a autenticação baseada em <span>JWT (Json Web Token)</span> para proteger rotas privadas da aplicação.</p>
+            <div class="preview-img">
+                <div class="imgs">
+                    <img src="../../imgs/userauth/home.png" alt="Página principal">
+                    <img src="../../imgs/userauth/registro.png" alt="Página de registro">
+                    <img src="../../imgs/userauth/login.png" alt="Página de login">
+                </div>
+                <p>Imagens do projeto</p>
+            </div>
 
-                <a href="https://github.com/developerferreira/userauth" target="_blank">
-                    <img src="../../imgs/userauth/registro.png" alt="Preview registro" class="preview">
-                    <img src="../../imgs/userauth/login.png" alt="Preview login" class="preview">
-                    <img src="../../imgs/userauth/home.png" alt="Preview home" class="preview">
-                </a>
+            <div class="about-project">
+                <h2>Sobre o projeto:</h2>
+                <p>Autenticação de usuários que conta com os seguintes recursos: cadastro, login, visualização de informações da conta. O <strong>MongoDB Atlas</strong> foi responsável por armazenar dados da conta do usuário e o <strong>Mongoose</strong> foi utilizado para realizar a integração com o MongoDB e a modelagem de dados. <strong>Dotenv</strong> permitiu armazenar variáveis de ambiente de uma maneira mais segura. Utilizei o <strong>bcrypt</strong> para realizar o hash de senhas de usuários antes de serem enviadas ao banco de dados. Por fim, o <strong>JWT (JsonWebToken)</strong> permitiu a proteção de rotas privadas da aplicação.</p>
+            </div>
+
+            <div class="tech-used">
+                <h2>Tecnologias utilizadas:</h2>
+                <div class="tech">
+                    <h3>Back-end</h3>
+                    <p>NodeJS, MongoDB Atlas, Mongoose, API REST e validação de dados.</p>
+                </div>
+                <div class="tech">
+                    <h3>Segurança</h3>
+                    <p>Hash de senhas, tokens JWT e variáveis de ambiente.</p>
+                </div>
+                <div class="tech">
+                    <h3>Front-end e outros</h3>
+                    <p>React, styled-components, javascript e git.</p>
+                </div>
             </div>
         </main>
 
         <footer>
-            <a href="https://github.com/developerferreira/userauth" target="_blank" class="click">Código fonte</a>
-            <a href="https://github.com/developerferreira/userauth/blob/master/README.md" target="_blank" class="click">Testar projeto</a>
+            <a href="https://github.com/developerferreira/userauth">Código fonte <i class="bi bi-arrow-up-right"></i></a>
+            <a href="https://github.com/developerferreira/userauth/blob/master/README.md">Testar projeto <i class="bi bi-arrow-up-right"></i></a>
         </footer>
     </div>
-    <script src="../../index.js"></script>
 </body>
 </html>

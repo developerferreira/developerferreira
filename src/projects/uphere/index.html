@@ -3,33 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UpHere</title>
+    <title>Cauã Ferreira | UpHere</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
 <body>
     <div class="corpo">
         <header>
+            <a href="../../../index.html"><i class="bi bi-arrow-left"></i> Voltar</a>
             <h1>UpHere</h1>
-            <p>Projeto de gerenciamento de arquivos com a possibilidade de login e registro. A página principal contém a possibilidade de upload de arquivos, além de logout e exclusão de conta.</p>
+            <p>Sistema de autenticação e gerenciamento de arquivos e conta.</p>
+            <div class="skills">
+                <p class="skill-name">NodeJS</p>
+                <p class="skill-name">MongoDB Atlas</p>
+                <p class="skill-name">API Rest</p>
+                <p class="skill-name">Mongoose</p>
+                <p class="skill-name">JsonWebToken</p>
+                <p class="skill-name">Bcrypt</p>
+                <p class="skill-name">Supabase Storage</p>
+            </div>
         </header>
 
         <main>
-            <div>
-                <p>Neste projeto, reutilizei o sistema de autenticação de usuário que publiquei em meu portfólio. Você pode dar uma olhada nele <a href="../userauth/index.html">clicando aqui!</a> Utilizei o <span>MongoDB Atlas</span> para o armazenamento de dados do usuário, tais como informações de login e dados sobre os arquivos enviados. <span>Supabase Storage</span> foi utilizado para realizar o armazenamento de arquivos em nuvem. O usuário tem a liberdade de escolher qualquer tipo de arquivo, seja ele <span>vídeo, áudio, imagem ou documentos de textos</span>. Também é possível fazer o upload de múltiplos arquivos simultâneamente, além de realizar a exclusão de tais arquivos quando desejar. Por fim, hospedei o front-end da aplicação na Vercel e implantei o back-end na Render.</p>
+            <div class="preview-img">
+                <div class="imgs">
+                    <img src="../../imgs/uphere/home.png" alt="Página principal">
+                    <img src="../../imgs/uphere/deleteFile.gif" alt="Apagando tarefa">
+                    <img src="../../imgs/" alt="">
+                </div>
+                <p>Imagens do projeto</p>
+            </div>
 
-                <a href="https://github.com/developerferreira/uphere" target="_blank">
-                    <img src="../../imgs/uphere/home.png" alt="Preview home" class="preview">
-                    <img src="../../imgs/uphere/deleteFile.gif" alt="Preview apagando um arquivo" class="preview">
-                </a>
+            <div class="about-project">
+                <h2>Sobre o projeto:</h2>
+                <p>Autenticação de usuários e gerenciamento de arquivos. Possui suporte aos seguintes tipos de arquivos: imagens, vídeos ou documentos de texto. Permite excluir tanto o arquivo como a conta criada. O <strong>MongoDB Atlas</strong> foi responsável por armazenar dados da conta do usuário, enquanto o <strong>Supabase Storage</strong> armazenava os arquivos dos usuários.</p>
+            </div>
+
+            <div class="tech-used">
+                <h2>Tecnologias utilizadas:</h2>
+                <div class="tech">
+                    <h3>Back-end</h3>
+                    <p>NodeJS, API REST, MongoDB Atlas, Mongoose, validação de dados e armazenamento de arquivos em nuvem com Supabase.</p>
+                </div>
+                <div class="tech">
+                    <h3>Segurança</h3>
+                    <p>Hash de senhas, tokens JWT e variáveis de ambiente.</p>
+                </div>
+                <div class="tech">
+                    <h3>Front-end e outros</h3>
+                    <p>React, styled-components, javascript e git.</p>
+                </div>
             </div>
         </main>
 
         <footer>
-            <a href="https://github.com/developerferreira/uphere" target="_blank" class="click">Código fonte</a>
-            <a href="https://uphere-two.vercel.app/" target="_blank" class="click">Testar projeto</a>
+            <a href="https://github.com/developerferreira/uphere">Código fonte <i class="bi bi-arrow-up-right"></i></a>
+            <a href="https://uphere-two.vercel.app/">Testar projeto <i class="bi bi-arrow-up-right"></i></a>
         </footer>
-    </div>
-    <script src="../../index.js"></script>
+    <strong></div></strong>
 </body>
 </html>
