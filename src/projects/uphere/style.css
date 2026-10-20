@@ -174,22 +174,3 @@ footer a:hover {
 footer a:hover i {
     color: var(--text-color);
 }
-
-
-@media (max-width: 740px) {
-    .corpo {
-        width: auto;
-    }
-    .preview {
-        width: 500px;
-    }
-}
-
-@media (max-width: 530px) {
-    .corpo {
-        width: auto;
-    }
-    .preview {
-        width: 400px;
-    }
-}
