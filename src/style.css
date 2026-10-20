@@ -24,7 +24,7 @@ body {
     height: 100vh;
 }
 
-.main__div {
+.main-div {
     width: 450px;
     height: 400px;
     display: flex;
@@ -176,4 +176,25 @@ footer {
 
 footer i {
     font-size: 30px;
+}
+
+@media (max-width: 490px) {
+    .main-div {
+        width: auto;
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        row-gap: 10px;
+    }
+
+    .skill-name {
+        height: auto;
+        max-width: 100%;
+        white-space: normal;
+        overflow-wrap: break-word;
+        box-sizing: border-box;
+    }
 }
